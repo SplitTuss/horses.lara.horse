@@ -133,7 +133,7 @@ export function Horses() {
   return HORSE_DATA.map((horse, index) => (
     <section key={index}>
       <h2>{horse.name}</h2>
-      <div className="grid grid-cols-4 object-center">
+      <div className="grid grid-cols-4 items-center justify-center">
         {horse.images.map((horseImage, index) => (
           <img
             key={index}
