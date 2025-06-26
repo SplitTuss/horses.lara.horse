@@ -1,6 +1,8 @@
 const HORSE_DATA = [
   {
     name: "Lovis",
+    age: "16 years old",
+    breed: "Arabian-Welsh Pony mix, mare",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis1.jpg",
@@ -18,6 +20,8 @@ const HORSE_DATA = [
   },
   {
     name: "Oz",
+    age: "10 years old",
+    breed: "Andalusian-Knabstrupper mix, gelding",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/oz/oz1.jpg",
@@ -31,6 +35,8 @@ const HORSE_DATA = [
   },
   {
     name: "Jespers Fiasko, aka Jasko",
+    age: "10 years old",
+    breed: "Knabstrupper, gelding",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/jasko/jasko1.jpg",
@@ -48,6 +54,8 @@ const HORSE_DATA = [
   },
   {
     name: "Tralee",
+    age: "12 years old",
+    breed: "Irish Cob, gelding",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee1.JPG",
@@ -69,6 +77,8 @@ const HORSE_DATA = [
   },
   {
     name: "Pico, aka Pixel",
+    age: "14 years old",
+    breed: "Quarter Horse-Wels Pony mix, gelding",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico1.jpg",
@@ -86,6 +96,8 @@ const HORSE_DATA = [
   },
   {
     name: "Tiana",
+    age: "7 years old",
+    breed: "Haflinger, mare",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tiana/tiana1.jpg",
@@ -99,6 +111,8 @@ const HORSE_DATA = [
   },
   {
     name: "Nala",
+    age: "8 years old",
+    breed: "unknown, mare",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/nala/nala1.jpeg",
@@ -112,6 +126,8 @@ const HORSE_DATA = [
   },
   {
     name: "Fuchur",
+    age: "14 years old",
+    breed: "Noriker, gelding",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/fuchur/fuchur1.JPG",
@@ -133,6 +149,8 @@ export function Horses() {
   return HORSE_DATA.map((horse, index) => (
     <section key={index}>
       <h2>{horse.name}</h2>
+      <p>{horse.age}</p>
+      <p>{horse.breed}</p>
       <div className="grid grid-cols-4 items-center justify-center">
         {horse.images.map((horseImage, index) => (
           <img
