@@ -148,9 +148,8 @@ const HORSE_DATA = [
 export function Horses() {
   return HORSE_DATA.map((horse, index) => (
     <section key={index}>
-      <h2>{horse.name}</h2>
-      <p>{horse.age}</p>
-      <p>{horse.breed}</p>
+      <h2 className="text-purple-400">{horse.name}</h2>
+      <p>{horse.age}, {horse.breed}</p>
       <div className="grid grid-cols-4 items-center justify-center">
         {horse.images.map((horseImage, index) => (
           <img
