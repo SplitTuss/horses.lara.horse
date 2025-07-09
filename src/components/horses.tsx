@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const HORSE_DATA = [
   {
     name: "Lovis",
@@ -152,7 +154,7 @@ export function Horses() {
       <p>{horse.age}, {horse.breed}</p>
       <div className="grid grid-cols-4 items-center justify-center">
         {horse.images.map((horseImage, index) => (
-          <img
+          <Image
             key={index}
             src={horseImage.url}
             alt={horseImage.alt}
