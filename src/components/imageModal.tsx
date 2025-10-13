@@ -10,10 +10,12 @@ export function ImageModal() {
   const [isOpen, setIsOpen] = useState(false);
   const [modalData, setModalData] = useState<ModalData>({imageUrl: '', caption: ''});
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const openModal = (imageUrl: string, caption: string) => {
     setModalData({ imageUrl, caption });
     setIsOpen(true);
   };
+
 
   const closeModal = () => {
     setIsOpen(false);
