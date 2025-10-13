@@ -36,24 +36,16 @@ export function ImageModal() {
           className="modal-backdrop" 
           onClick={handleBackdropClick}
         >
-          <div className="modal-content">
-            {/* Close button */}
-            <span 
-              className="close-button" 
-              onClick={closeModal}
-            >
-              &times;
-            </span>
+          <div> 
             
             {/* Modal image */}
             <img 
               src={modalData.imageUrl} 
               alt={modalData.caption}
-              className="modal-image"
             />
             
             {/* Caption */}
-            <div className="modal-caption">
+            <div>
               {modalData.caption}
             </div>
           </div>
@@ -63,7 +55,6 @@ export function ImageModal() {
   )
 };
 
-// Export the openModal function so other components can use it
 export const openImageModal = (imageUrl: string, caption: string) => {
   // This will be handled by the parent component's state
   return { imageUrl, caption };

@@ -169,7 +169,6 @@ export function Horses() {
             src={horseImage.url}
             alt={horseImage.alt}
             width={180}
-            height={38}
             className="mx-auto cursor-pointer hover:opacity-80 transition-opacity"
             onClick={() => handleImageClick(horseImage.url, horseImage.alt)}
           />
@@ -180,20 +179,19 @@ export function Horses() {
     
       {modalData && (
         <div 
-          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-10 flex items-center justify-center"
           onClick={() => setModalData(null)}
         >
           <div className="relative max-w-4xl max-h-full p-4">
             <span 
-              className="absolute top-2 right-2 text-white text-4xl cursor-pointer hover:text-gray-300 z-10"
+              className="absolute top-2 right-0 text-white text-2xl cursor-pointer hover:text-gray-300"
               onClick={() => setModalData(null)}
             >
-              &times;
+              x
             </span>
             <img 
               src={modalData.imageUrl} 
               alt={modalData.caption}
-              className="max-w-full max-h-full object-contain"
             />
             <div className="text-white text-center mt-2">
               {modalData.caption}
