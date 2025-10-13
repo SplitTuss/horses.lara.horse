@@ -1,3 +1,6 @@
+'use client'
+
+import { useState } from "react";
 
 const HORSE_DATA = [
   {
@@ -147,7 +150,15 @@ const HORSE_DATA = [
 ]
 
 export function Horses() {
-  return HORSE_DATA.map((horse, index) => (
+  const [modalData, setModalData] = useState<{imageUrl: string, caption: string} | null>(null)
+
+  const handleImageClick = (imageUrl: string, caption: string) => {
+    setModalData({imageUrl, caption});
+  };
+
+  return (
+    <>
+   {HORSE_DATA.map((horse, index) => (
     <section key={index}>
       <h2 className="text-purple-400">{horse.name}</h2>
       <p>{horse.age}, {horse.breed}</p>
@@ -159,12 +170,40 @@ export function Horses() {
             alt={horseImage.alt}
             width={180}
             height={38}
-            className="mx-auto"
+            className="mx-auto cursor-pointer hover:opacity-80 transition-opacity"
+            onClick={() => handleImageClick(horseImage.url, horseImage.alt)}
           />
         ))}
       </div>
     </section>
-  ))
+    ))}
+    
+      {modalData && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+          onClick={() => setModalData(null)}
+        >
+          <div className="relative max-w-4xl max-h-full p-4">
+            <span 
+              className="absolute top-2 right-2 text-white text-4xl cursor-pointer hover:text-gray-300 z-10"
+              onClick={() => setModalData(null)}
+            >
+              &times;
+            </span>
+            <img 
+              src={modalData.imageUrl} 
+              alt={modalData.caption}
+              className="max-w-full max-h-full object-contain"
+            />
+            <div className="text-white text-center mt-2">
+              {modalData.caption}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+);
 }
+
 
 export default Horses;

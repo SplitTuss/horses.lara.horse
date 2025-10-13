@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "horses.lara.horse",
-  description: "A list of all the horses lara has met.",
+  description: "A list of all the horses Lara has met.",
 };
 
 export default function RootLayout({
