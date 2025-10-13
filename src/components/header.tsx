@@ -1,13 +1,23 @@
+
 export function Header() {
   return (
-    <ol className="bg-purple-950 flex items-center justify-center">
-      <li className="p-10 text-white"><a href="https://lara.horse">lara.horse</a></li>
-      <li className="p-10 text-white"><a href="https://sso-log.lara.horse">sso-log</a></li>
-      <li className="p-10 text-white"><a href="https://laracraft.io">laracraft.io</a></li>
-      {/* <li className="p-10 text-purple-900">sso-log.lara.horse</li>
-      <li className="p-10 text-purple-900">I-GRMN.laracraft.io</li> */}
+    <ol className="bg-primary flex items-center justify-center gap-6 py-4 m-8">
+      <li>
+        <a href="https://lara.horse">
+          <a>lara.horse</a>
+        </a>
+      </li>
+      <li className="hidden sm:block">
+        <a href="https://sso-log.lara.horse/">
+          <a>game horses</a>
+        </a>
+      </li>
+      <li className="hidden sm:block">
+        <a href="https://laracraft.io">
+          <a>laracraft.io</a>
+        </a>
+      </li>
     </ol>
   );
 }
-
 export default Header;
