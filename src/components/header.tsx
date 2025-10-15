@@ -4,17 +4,17 @@ export function Header() {
     <ol className="bg-purple-700 flex items-center justify-center gap-6 py-4">
       <li className="hidden sm:block">
         <a href="https://lara.horse">
-          <a>lara.horse</a>
+          <p>lara.horse</p>
         </a>
       </li>
       <li className="">
         <a href="https://sso-log.lara.horse/">
-          <a>game horses</a>
+          <p>game horses</p>
         </a>
       </li>
       <li>
         <a href="https://laracraft.io">
-          <a>laracraft.io</a>
+          <p>laracraft.io</p>
         </a>
       </li>
     </ol>

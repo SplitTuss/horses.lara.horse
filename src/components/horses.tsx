@@ -7,7 +7,7 @@ const HORSE_DATA = [
     name: "Lovis",
     age: "16 years old",
     breed: "Arabian-Welsh Pony mix, mare",
-    notes: "Lovis was a school pony and hated everyone until someone (I) took the time to build her trust and train her. Half a year after I started working with her, I showed her in the Trail, Western Pleasure and Horsemanship classes. How we got placed didn’t matter, we did it for the experience and learning. I remember it being quite successful but don’t remember the exact places we got. A few weeks later she got sold. I tried to stay in touch but the new owner wasn’t a fan and it wasn’t the same anymore, so I had to move on.",
+    notes: "Lovis was a school pony and hated everyone until someone (I) took the time to build her trust and train her. Half a year after I started working with her, I showed her in the Trail, Western Pleasure and Horsemanship classes. How we got placed didn't matter, we did it for the experience and learning. I remember it being quite successful but don't remember the exact places we got. A few weeks later she got sold. I tried to stay in touch but the new owner wasn't a fan and it wasn't the same anymore, so I had to move on.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis1.jpg",
@@ -27,7 +27,7 @@ const HORSE_DATA = [
     name: "Oz",
     age: "10 years old",
     breed: "Andalusian-Knabstrupper mix, gelding",
-    notes: "He was actually the first horse on that farm I bonded with, it just wasn’t as close of a bond as I had with Lovis a couple of years later. When I first started riding there, they hosted a tiny Trail-tournament for all the kids. I tried with Oz and did pretty good, considering I barely knew how to ride and barely knew the horse. A few years later they did the same thing and I also did that one with him because he was such a reliable and fun horse. You could do anything with him, even spray paint him (with safe paint and adult’s supervision of course). When I went to visit the farm YEARS later, him and his brother Jasko were still there, which made me super happy. ",
+    notes: "He was actually the first horse on that farm I bonded with, it just wasn't as close of a bond as I had with Lovis a couple of years later. When I first started riding there, they hosted a tiny Trail-tournament for all the kids. I tried with Oz and did pretty good, considering I barely knew how to ride and barely knew the horse. A few years later they did the same thing and I also did that one with him because he was such a reliable and fun horse. You could do anything with him, even spray paint him (with safe paint and adult's supervision of course). When I went to visit the farm YEARS later, him and his brother Jasko were still there, which made me super happy. ",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/oz/oz1.jpg",
@@ -43,7 +43,7 @@ const HORSE_DATA = [
     name: "Jespers Fiasko, aka Jasko",
     age: "10 years old",
     breed: "Knabstrupper, gelding",
-    notes: "Oz’ brother, who was an accident but one of the most stunning accidents I have ever met. After Lovis was sold, he was my go-to mount. He taught me a lot of things, including how to jump onto a tall horses’ back without a saddle or tree stump. Knabstruppers are known for the tricks they like participating in, so he knew almost all of them (besides rearing and kicking, which is smart not to teach a tall school horse who gets ridden by 5-year-olds, some of them disabled). All that being said, he did kick me in the knee and sent me flying 4 meters through the air. But that wasn’t his intention; there was a bee on his belly and it wouldn’t go away and I walked around him right behind him, which you’re not supposed to do for a reason. (I still do it with horses I know but I never take my hand off of their butt while I walk around them, so they don’t forget that I’m there. Lesson taught!) When Jasko saw what he did, you could tell that he felt bad and he wanted to come check on me. He couldn’t because he was tied to a pole, since we were brushing them to go for a ride, but he WOULD have if he could have. He was a wonderful companion and I am grateful to have bonded with him the way that I did. When I went to visit the farm YEARS later, him and his brother Oz were still there, which made me super happy. ",
+    notes: "Oz' brother, who was an accident but one of the most stunning accidents I have ever met. After Lovis was sold, he was my go-to mount. He taught me a lot of things, including how to jump onto a tall horses' back without a saddle or tree stump. Knabstruppers are known for the tricks they like participating in, so he knew almost all of them (besides rearing and kicking, which is smart not to teach a tall school horse who gets ridden by 5-year-olds, some of them disabled). All that being said, he did kick me in the knee and sent me flying 4 meters through the air. But that wasn't his intention; there was a bee on his belly and it wouldn't go away and I walked around him right behind him, which you're not supposed to do for a reason. (I still do it with horses I know but I never take my hand off of their butt while I walk around them, so they don't forget that I'm there. Lesson taught!) When Jasko saw what he did, you could tell that he felt bad and he wanted to come check on me. He couldn't because he was tied to a pole, since we were brushing them to go for a ride, but he WOULD have if he could have. He was a wonderful companion and I am grateful to have bonded with him the way that I did. When I went to visit the farm YEARS later, him and his brother Oz were still there, which made me super happy. ",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/jasko/jasko1.jpg",
@@ -63,7 +63,7 @@ const HORSE_DATA = [
     name: "Tralee",
     age: "12 years old",
     breed: "Irish Cob, gelding",
-    notes: "At some point the school horses (Oz and Jasko) couldn’t teach me much more, so I had to find a new stable with someone’s private horse that I got to ride. So I did. I had the honor of working with Tralee for two years before he too was sold, for reasons that to this day upset me. He wasn’t my horse though so there’s nothing I could do. I was able to ride Tralee without a saddle and without a bridle and he would still be perfect. I could ride such small lope circles that it was almost a piaffe, with no bridle and no saddle, of course. I jumped small obstacles with him even though he was never trained for jumping. I went on many trail rides with him, even some in the dark where I was pretty sure I was lost but he never was, he found home. I could go on trail rides (obviously) without saddle or bridle. I got to show him once, in a Western pleasure. It is impossible to write more about him at this time because my heart is breaking all over again.",
+    notes: "At some point the school horses (Oz and Jasko) couldn't teach me much more, so I had to find a new stable with someone's private horse that I got to ride. So I did. I had the honor of working with Tralee for two years before he too was sold, for reasons that to this day upset me. He wasn't my horse though so there's nothing I could do. I was able to ride Tralee without a saddle and without a bridle and he would still be perfect. I could ride such small lope circles that it was almost a piaffe, with no bridle and no saddle, of course. I jumped small obstacles with him even though he was never trained for jumping. I went on many trail rides with him, even some in the dark where I was pretty sure I was lost but he never was, he found home. I could go on trail rides (obviously) without saddle or bridle. I got to show him once, in a Western pleasure. It is impossible to write more about him at this time because my heart is breaking all over again.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee1.JPG",
@@ -87,7 +87,7 @@ const HORSE_DATA = [
     name: "Pico, aka Pixel",
     age: "14 years old",
     breed: "Quarter Horse-Wels Pony mix, gelding",
-    notes: "His owner offered me to work with him when Tralee was sold. I had the choice between Tralee’s owner’s new horse (a 5- year old mare called Diva, who tried to bite my leg every time I got on her) or Pixel. You can tell who I went for. He was amazing but I had to use the reins a lot with him, which I wasn’t a big fan of but that was no fault of his owner. She worked with him on needing less rein-cues but coming from Tralee who needed none at all, it was a big change. He was a super kind horse and his owner supported me in ways that no other horse owner had ever done. It was a real team. Until life got in the way and I decided to give up on riding for a while. ",
+    notes: "His owner offered me to work with him when Tralee was sold. I had the choice between Tralee's owner's new horse (a 5- year old mare called Diva, who tried to bite my leg every time I got on her) or Pixel. You can tell who I went for. He was amazing but I had to use the reins a lot with him, which I wasn't a big fan of but that was no fault of his owner. She worked with him on needing less rein-cues but coming from Tralee who needed none at all, it was a big change. He was a super kind horse and his owner supported me in ways that no other horse owner had ever done. It was a real team. Until life got in the way and I decided to give up on riding for a while. ",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico1.jpg",
@@ -107,7 +107,7 @@ const HORSE_DATA = [
     name: "Tiana",
     age: "7 years old",
     breed: "Haflinger, mare",
-    notes: "Her owner was very sick so she had 8 people taking care of her and everyone did it in their own way. Again, I got to work with a horse who is confused by too many people (only this time she was in puberty too) but people had messed up too much with her, so there was little I could do, as long as random people kept working with her too.In the round pen she came galloping at me with her ears pinned back and her teeth fletching at me. She’d rear when I wouldn’t let her run home at the end of our trail rides.I didn’t have the time to work with her every day, otherwise this section might have looked different. I had nobody working with me, everyone felt bad for the owner and horse so everyone wanted to help. Sadly nobody took the time to really get to know Tiana and work with the other people caring for her, so that she’d have people doing similar things. She was a confused teen who just wanted to be cuddled all day every day.They found a replacement for me and that person got to keep her after the owner sadly passed away a few months after I left. ",
+    notes: "Her owner was very sick so she had 8 people taking care of her and everyone did it in their own way. Again, I got to work with a horse who is confused by too many people (only this time she was in puberty too) but people had messed up too much with her, so there was little I could do, as long as random people kept working with her too.In the round pen she came galloping at me with her ears pinned back and her teeth fletching at me. She'd rear when I wouldn't let her run home at the end of our trail rides.I didn't have the time to work with her every day, otherwise this section might have looked different. I had nobody working with me, everyone felt bad for the owner and horse so everyone wanted to help. Sadly nobody took the time to really get to know Tiana and work with the other people caring for her, so that she'd have people doing similar things. She was a confused teen who just wanted to be cuddled all day every day.They found a replacement for me and that person got to keep her after the owner sadly passed away a few months after I left. ",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tiana/tiana1.jpg",
@@ -123,7 +123,7 @@ const HORSE_DATA = [
     name: "Nala",
     age: "8 years old",
     breed: "unsure about breed, mare",
-    notes: "I didn’t get to work with her as much as I would’ve liked. She had really bad hooves and that gave her only very little mobility, so working with her was pretty much impossible. I took her for walks, that was all she could do, especially since nobody really did much with her so her muscles were almost non existent. Such a sweet girl though, she really listened to body language and whenever I did get to ride her for a little bit (without a saddle, as I like to do), it was such a joy. Nala also reacted to the reins so sensitively that she didn’t need a bridle, I just used her halter and she was golden.",
+    notes: "I didn't get to work with her as much as I would've liked. She had really bad hooves and that gave her only very little mobility, so working with her was pretty much impossible. I took her for walks, that was all she could do, especially since nobody really did much with her so her muscles were almost non existent. Such a sweet girl though, she really listened to body language and whenever I did get to ride her for a little bit (without a saddle, as I like to do), it was such a joy. Nala also reacted to the reins so sensitively that she didn't need a bridle, I just used her halter and she was golden.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/nala/nala1.jpeg",
@@ -178,7 +178,7 @@ export function Horses() {
     <section 
       key={index} 
       className="p-2">
-      <div className="flex flex-col items-center border-2 border-dotted border-purple-200 rounded-xl p-4">
+      <div className="flex flex-col items-center border-2 border-dotted border-purple-700 rounded-xl p-4">
         <p className="font-bold text-2xl underline text-purple-500">{horse.name}</p>
         <p>{horse.age}, {horse.breed}</p>
 
