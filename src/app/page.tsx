@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
         <main className="flex flex-col gap-[32px] items-center">
-          <p>Meet all the horses who have taught me lessons! Ages are from the time I met them.</p>
+          <p className="mt-2 ml-2">Meet all the horses who have taught me lessons! Ages are from the time I met them.</p>
           <Horses />
         </main>
         

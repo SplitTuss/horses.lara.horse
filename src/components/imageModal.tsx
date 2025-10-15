@@ -30,21 +30,17 @@ export function ImageModal() {
 
   return (
     <>
-    {/* Modal backdrop and content */}
     {isOpen && (
         <div 
           className="modal-backdrop" 
           onClick={handleBackdropClick}
         >
-          <div> 
-            
-            {/* Modal image */}
+          <div className=""> 
             <img 
               src={modalData.imageUrl} 
               alt={modalData.caption}
             />
             
-            {/* Caption */}
             <div>
               {modalData.caption}
             </div>
