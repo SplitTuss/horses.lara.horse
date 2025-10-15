@@ -63,7 +63,7 @@ const HORSE_DATA = [
     name: "Tralee",
     age: "12 years old",
     breed: "Irish Cob, gelding",
-    notes: "At some point the school horses couldn’t teach me much more, so I had to find a new stable with someone’s private horse that I got to ride. So I did. I had the honor of working with Tralee for two years before he too was sold, for reasons that to this day upset me. He wasn’t my horse though so there’s nothing I could do. I was able to ride Tralee without a saddle and without a bridle and he would still be perfect. I could ride such small lope circles that it was almost a piaffe, with no bridle and no saddle, of course. I jumped small obstacles with him even though he was never trained for jumping. I went on many trail rides with him, even some in the dark where I was pretty sure I was lost but he never was, he found home. I could go on trail rides (obviously) without saddle or bridle. I got to show him once, in a Western pleasure. It is impossible to write more about him at this time because my heart is breaking all over again.",
+    notes: "At some point the school horses (Oz and Jasko) couldn’t teach me much more, so I had to find a new stable with someone’s private horse that I got to ride. So I did. I had the honor of working with Tralee for two years before he too was sold, for reasons that to this day upset me. He wasn’t my horse though so there’s nothing I could do. I was able to ride Tralee without a saddle and without a bridle and he would still be perfect. I could ride such small lope circles that it was almost a piaffe, with no bridle and no saddle, of course. I jumped small obstacles with him even though he was never trained for jumping. I went on many trail rides with him, even some in the dark where I was pretty sure I was lost but he never was, he found home. I could go on trail rides (obviously) without saddle or bridle. I got to show him once, in a Western pleasure. It is impossible to write more about him at this time because my heart is breaking all over again.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee1.JPG",
@@ -216,10 +216,9 @@ export function Horses() {
           className="fixed inset-0 bg-black flex items-center justify-center"
           onClick={() => setModalData(null)}
         >
-          <div className="relative">
-            <div className="flex flex-col">
+          <div className="relative w-[90vw] max-w-[900px] h-[80vh] max-h-[80vh] flex flex-col items-center justify-center">
               <button 
-                className="absolute right-2 text-stone-400 text-2xl cursor-pointer hover:text-stone-300"
+                className="absolute top-4 right-2 z-10 text-stone-400 text-2xl cursor-pointer hover:text-stone-300"
                 onClick={() => setModalData(null)}
               >
                 x
@@ -227,8 +226,8 @@ export function Horses() {
               <img 
                 src={modalData.imageUrl} 
                 alt={modalData.caption}
+                className="max-w-full max-h-full object-contain"
               />
-            </div>
             <div className="text-white text-center mt-2">
               {modalData.caption}
             </div>
