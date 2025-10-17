@@ -177,8 +177,8 @@ export function Horses() {
    {HORSE_DATA.map((horse, index) => (
     <section 
       key={index} 
-      className="p-2">
-      <div className="flex flex-col items-center border-2 border-dotted border-purple-700 rounded-xl p-4">
+      className="mt-1">
+      <div className="flex flex-col items-center border-2 border-dotted border-purple-700 rounded-xl p-4 sm:m-0 mx-2" >
         <p className="font-bold text-2xl underline text-purple-500">{horse.name}</p>
         <p>{horse.age}, {horse.breed}</p>
 
@@ -216,9 +216,9 @@ export function Horses() {
           className="fixed inset-0 bg-black flex items-center justify-center"
           onClick={() => setModalData(null)}
         >
-          <div className="relative w-[90vw] max-w-[900px] h-[80vh] max-h-[80vh] flex flex-col items-center justify-center">
+          <div className="w-[90vw] max-w-[900px] h-[80vh] max-h-[80vh] flex flex-col items-center justify-center">
               <button 
-                className="absolute top-4 right-2 z-10 text-stone-400 text-2xl cursor-pointer hover:text-stone-300"
+                className="self-end right-0 text-stone-400 text-2xl cursor-pointer hover:text-stone-300"
                 onClick={() => setModalData(null)}
               >
                 x
