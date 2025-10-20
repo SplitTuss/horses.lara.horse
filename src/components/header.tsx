@@ -2,7 +2,7 @@
 export function Header() {
   return (
     <ol className="bg-purple-700 flex items-center justify-center gap-6 py-4">
-      <li className="hidden sm:block">
+      <li>
         <a href="https://lara.horse">
           <p>lara.horse</p>
         </a>
@@ -12,7 +12,7 @@ export function Header() {
           <p>game horses</p>
         </a>
       </li>
-      <li>
+      <li className="hidden sm:block">
         <a href="https://laracraft.io">
           <p>laracraft.io</p>
         </a>
