@@ -7,7 +7,7 @@ const HORSE_DATA = [
     name: "Lovis",
     age: "16 years old",
     breed: "Arabian-Welsh Pony mix, mare",
-    notes: "Lovis was a school pony and hated everyone until someone (I) took the time to build her trust and train her. Half a year after I started working with her, I showed her in the Trail, Western Pleasure and Horsemanship classes. How we got placed didn't matter, we did it for the experience and learning. I remember it being quite successful but don't remember the exact places we got. A few weeks later she got sold. I tried to stay in touch but the new owner wasn't a fan and it wasn't the same anymore, so I had to move on.",
+    notes: "Lovis was a school pony and hated everyone until someone (I) took the time to build her trust and train her. Obviously I had help from people who knew what they were doing. Half a year after I started working with her, I showed her in the Trail, Western Pleasure and Horsemanship classes. How we got placed didn't matter, we did it for the experience and learning. I remember it being quite successful but don't remember the exact places we got. A few weeks later she got sold. I tried to stay in touch but the new owner wasn't a fan and it wasn't the same anymore, so I had to move on.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis1.jpg",
@@ -19,7 +19,7 @@ const HORSE_DATA = [
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis3.JPG",
-        alt: "Lovis and me at Western Pleasure show"
+        alt: "Lovis and me at Western Pleasure show in 2013"
       },
     ]
   },
