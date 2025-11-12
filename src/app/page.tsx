@@ -1,4 +1,4 @@
-import Horses from "../components/horses";
+import { Horses } from "../components/horses";
 import Header from "../components/header";
 
 export default function Home() {
