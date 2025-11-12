@@ -18,7 +18,6 @@ export const Notes = ({ text }: NotesProps) => {
     
       <div className={`
         transition-all ease-out duration-300
-        overflow-hidden
         ${expanded ? 'opacity-100 max-h-100' : 'opacity-0 max-h-0'}
       `}>
         <p className="max-w-2xl text-center">
