@@ -1,23 +1,19 @@
+import Link from 'next/link';
 
-export function Header() {
+export default function Header() {
   return (
-    <ol className="bg-purple-700 flex items-center justify-center gap-6 py-4">
-      <li>
-        <a href="https://lara.horse">
-          <p>lara.horse</p>
-        </a>
-      </li>
-      <li className="">
-        <a href="https://sso-log.lara.horse/">
-          <p>game horses</p>
-        </a>
-      </li>
-      <li className="hidden sm:block">
-        <a href="https://laracraft.io">
+    <div className="bg-purple-700 h-25 flex items-center justify-between">
+      <img src="/favicon.ico" alt="horses.lara.horse.io logo" className="w-20 h-20 rounded-lg ml-2" />
+      {/* <div className='text-3xl text-primary'>horses.lara.horse</div> */}
+       <div className='flex justify-end gap-6 mr-6'>
+        <Link href="https://sso-log.lara.horse/">
+          <p>SSO-log</p>
+        </Link>
+        <Link href="https://laracraft.io">
           <p>laracraft.io</p>
-        </a>
-      </li>
-    </ol>
+        </Link>
+       </div>
+    </div>
   );
 }
-export default Header;
+

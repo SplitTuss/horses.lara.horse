@@ -21,14 +21,14 @@ export function Horses() {
       {HORSE_DATA.map((horse, index) => (
         <section 
           key={index} 
-          className="mt-1">
-          <div className="flex flex-col items-center border-2 border-dotted border-purple-700 rounded-xl p-4 sm:m-0 mx-2" >
+          className="m-2">
+          <div className="flex flex-col items-center border-2 border-dotted border-purple-700 rounded-xl p-4" >
             <p className="font-bold text-2xl text-purple-500">{horse.name}</p>
             <p>{horse.age}, {horse.breed}</p>
 
             <Notes text={horse.notes} />
 
-            <div className="grid grid-cols-4 items-center justify-center">
+            <div className="grid grid-cols-4 items-center">
               {horse.images.map((horseImage, index) => (
                 <img
                   key={index}
@@ -49,9 +49,9 @@ export function Horses() {
           className="fixed inset-0 bg-black flex items-center justify-center"
           onClick={() => setModalData(null)}
         >
-          <div className="w-[90vw] max-w-[900px] h-[80vh] max-h-[80vh] flex flex-col items-center justify-center">
+          <div className="w-[90vw] h-[80vh] flex flex-col items-center justify-center">
             <button 
-              className="self-end right-0 text-stone-400 text-2xl cursor-pointer hover:text-stone-300"
+              className="self-end text-stone-400 hover:text-stone-300 text-2xl cursor-pointer"
               onClick={() => setModalData(null)}
             >
               x
