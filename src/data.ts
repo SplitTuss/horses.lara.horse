@@ -7,7 +7,7 @@ export const HORSE_DATA = [
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis1.jpg",
-        alt: "Lovis' face closeup"
+        alt: "Lovis' face in winter"
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis2.JPG",
@@ -15,7 +15,7 @@ export const HORSE_DATA = [
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis3.JPG",
-        alt: "Lovis and me at Western Pleasure show in 2013"
+        alt: "Lovis and me at our first and only Western Pleasure show in 2013"
       },
     ]
   },
@@ -31,7 +31,7 @@ export const HORSE_DATA = [
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/oz/oz2.JPG",
-        alt: "Oz spray-painted for carnival"
+        alt: "Oz, spray-painted for carnival"
       },
     ]
   },
@@ -59,7 +59,7 @@ export const HORSE_DATA = [
     name: "Tralee",
     age: "12 years old",
     breed: "Irish Cob, gelding",
-    notes: "At some point the school horses (Oz and Jasko) couldn't teach me much more, so I had to find a new stable with someone's private horse that I got to ride. So I did. I had the honor of working with Tralee for two years before he too was sold, for reasons that to this day upset me. He wasn't my horse though so there's nothing I could do. I was able to ride Tralee without a saddle and without a bridle and he would still be perfect. I could ride such small lope circles that it was almost a piaffe, with no bridle and no saddle, of course. I jumped small obstacles with him even though he was never trained for jumping. I went on many trail rides with him, even some in the dark where I was pretty sure I was lost but he never was, he found home. I could go on trail rides (obviously) without saddle or bridle. I got to show him once, in a Western pleasure. It is impossible to write more about him at this time because my heart is breaking all over again.",
+    notes: "At some point the school horses (Oz and Jasko) couldn't teach me much more, so I had to find a new stable with someone's private horse that I got to ride. So I did. I had the honor of working with Tralee for two years before he too was sold, for reasons that to this day upset me. He wasn't my horse though so there's nothing I could do. I was able to ride Tralee without a saddle and without a bridle and he would still be perfect. I could ride such small lope circles that it was almost a piaffe, with no bridle and no saddle, of course. I jumped small obstacles with him even though he was never trained for jumping. I went on many trail rides with him, even some in the dark where I was pretty sure I was lost but he never was, he found home. I could go on trail rides (obviously) without saddle or bridle. I got to show him once, in a Western pleasure. Shortly after that they sold him.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee1.JPG",
@@ -91,7 +91,7 @@ export const HORSE_DATA = [
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico2.JPG",
-        alt: "Pico and me walking"
+        alt: "Pico and me walking back to the stable"
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico3.jpg",
@@ -119,7 +119,7 @@ export const HORSE_DATA = [
     name: "Nala",
     age: "8 years old",
     breed: "unsure about breed, mare",
-    notes: "I didn't get to work with her as much as I would've liked. She had really bad hooves and that gave her only very little mobility, so working with her was pretty much impossible. I took her for walks, that was all she could do, especially since nobody really did much with her so her muscles were almost non existent. Such a sweet girl though, she really listened to body language and whenever I did get to ride her for a little bit (without a saddle, as I like to do), it was such a joy. Nala also reacted to the reins so sensitively that she didn't need a bridle, I just used her halter and she was golden.",
+    notes: "I didn't get to work with her as much as I would've liked. She had really bad hooves and that gave her only very little mobility, so working with her was pretty much impossible. I took her for walks, that was all she could do, especially since nobody really did much with her so her muscles were almost non-existent. Such a sweet girl though, she really listened to body language and whenever I did get to ride her for a little bit (without a saddle, as I like to do), it was such a joy. Nala also reacted to the reins so sensitively that she didn't need a bridle, I just used her halter and she was golden.",
     images: [
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/nala/nala1.jpeg",
@@ -147,7 +147,7 @@ export const HORSE_DATA = [
       },
       {
         url: "https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/fuchur/fuchur3.jpg",
-        alt: "Fuchur and me walking"
+        alt: "Fuchur and me walking to the stable"
       },
     ]
   }

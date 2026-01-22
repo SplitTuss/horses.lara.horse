@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
         <main className="flex flex-col items-center">
-          <p className="m-2 flex text-center">Meet most the horses who have taught me lessons! Their ages are from the time I met them.</p>
+          <div className="m-2 flex text-center">Meet my favourite horses who each have taught me some lesson! Posted ages are from the time I met them.</div>
           <Horses />
         </main>
         
