@@ -6,10 +6,10 @@ export default function Header() {
       <img src="/favicon.ico" alt="horses.lara.horse.io logo" className="w-20 h-20 rounded-lg ml-2" />
        <div className='text-lg underline flex justify-end gap-6 mr-6'>
         <Link href="https://sso-log.lara.horse/">
-          <p>SSO-log</p>
+          SSO-log
         </Link>
         <Link href="https://laracraft.io">
-          <p>laracraft.io</p>
+          laracraft.io
         </Link>
        </div>
     </div>

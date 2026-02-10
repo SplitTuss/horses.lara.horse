@@ -6,11 +6,11 @@ export default function Home() {
     <>
       <Header />
         <main className="flex flex-col items-center">
-          <div className="m-2 flex text-center">Meet my favourite horses who each have taught me some lesson! Posted ages are from the time I met them.</div>
+          <div className="m-2 flex text-center">Meet my favorite horses who each have taught me some lesson! Posted ages are from the time I met them.</div>
           <Horses />
         </main>
         
-        <footer className="text-center pt-2">
+        <footer className="text-center m-2">
           <p>made by Lara</p>
         </footer>
     </>
