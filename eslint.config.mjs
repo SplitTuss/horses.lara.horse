@@ -1,6 +1,8 @@
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FlatCompat } from "@eslint/eslintrc";
+import prettierPlugin from 'eslint-plugin-prettier';
+import prettierConfig from 'eslint-config-prettier';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -13,10 +15,23 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     files: ["src/**/*.{js,ts,jsx,tsx}"],
+    plugins: {
+      prettier: prettierPlugin,
+    },
     rules: {
-      "@next/next/no-img-element": "off",
+      'prettier/prettier': 'error',
+      // add custom rule overrides here
+      '@next/next/no-img-element': 'off',
+      '@typescript-eslint/no-unused-vars': [
+        'warn',
+        {
+          argsIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+        },
+      ],
     },
   },
+  prettierConfig,
 ];
 
 export default eslintConfig;
