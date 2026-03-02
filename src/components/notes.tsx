@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 interface NotesProps {
   text: string;
@@ -9,22 +9,22 @@ export const Notes = ({ text }: NotesProps) => {
 
   return (
     <>
-      <button 
+      <button
         className="text-purple-200 underline hover:cursor-pointer hover:text-purple-400"
         onClick={() => setExpanded(!expanded)}
       >
         {expanded ? 'read less about this horse' : 'read more about this horse'}
       </button>
-    
-      <div className={`
+
+      <div
+        className={`
         transition-all ease-out duration-300
         overflow-hidden
         ${expanded ? 'opacity-100 max-h-100' : 'opacity-0 max-h-0'}
-      `}>
-        <p className="max-w-2xl text-center">
-          {text}
-        </p>
+      `}
+      >
+        <p className="max-w-2xl text-center">{text}</p>
       </div>
     </>
-  )
-}
+  );
+};
