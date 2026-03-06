@@ -15,7 +15,7 @@ export const Notes = ({ text }: NotesProps) => {
   return (
     <>
       <Dialog>
-        <DialogTrigger className="text-purple-200 underline">
+        <DialogTrigger className="text-purple-200 underline hover:cursor-pointer">
           Read more about this horse
         </DialogTrigger>
         <DialogContent>
