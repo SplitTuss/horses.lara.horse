@@ -1,30 +1,32 @@
-import { useState } from 'react';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from './shadcn/Dialog';
 
 interface NotesProps {
   text: string;
 }
 
 export const Notes = ({ text }: NotesProps) => {
-  const [expanded, setExpanded] = useState(false);
-
   return (
     <>
-      <button
-        className="text-purple-200 underline hover:cursor-pointer hover:text-purple-400"
-        onClick={() => setExpanded(!expanded)}
-      >
-        {expanded ? 'read less about this horse' : 'read more about this horse'}
-      </button>
-
-      <div
-        className={`
-        transition-all ease-out duration-300
-        overflow-hidden
-        ${expanded ? 'opacity-100 max-h-100' : 'opacity-0 max-h-0'}
-      `}
-      >
-        <p className="max-w-2xl text-center">{text}</p>
-      </div>
+      <Dialog>
+        <DialogTrigger className="text-purple-200 underline">
+          Read more about this horse
+        </DialogTrigger>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle className="text-2xl">What I have to say about this horse</DialogTitle>
+          </DialogHeader>
+          <DialogDescription className="text-lg max-h-100 overflow-scroll">
+            {text}
+          </DialogDescription>
+        </DialogContent>
+      </Dialog>
     </>
   );
 };
