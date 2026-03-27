@@ -21,21 +21,21 @@ export function Horses() {
         return (
           <section
             key={index}
-            className={`relative flex left-1.5 sm:left-0 ${index % 2 === 0 ? 'sm:justify-start' : 'sm:justify-end'} mb-12`}
+            className={`relative flex left-1.5 sm:left-0 ${index % 2 === 0 ? 'sm:justify-start' : 'sm:justify-end'} pt-10 mb-12`}
           >
             <div className="flex absolute items-center sm:left-1/2 sm:-translate-x-1/2">
               <CircleChevronRightIcon
                 className={`text-primary ${index % 2 === 0 ? 'sm:transition-transform sm:rotate-180' : 'sm:justify-end '}`}
               />
               <div
-                className={`sm:absolute ml-2 sm:ml-0 whitespace-nowrap font-semibold text-primary text-xl ${index % 2 !== 0 ? 'sm:left-15' : 'sm:right-15'}`}
+                className={`sm:absolute ml-2 sm:ml-0 whitespace-nowrap text-primary text-md sm:text-xl ${index % 2 !== 0 ? 'sm:left-15' : 'sm:right-15'}`}
               >
                 {horse.timeline}
               </div>
             </div>
 
             <div className="w-full sm:w-1/2 flex flex-col items-center mt-6 p-2">
-              <p className="font-bold text-2xl text-primary">{horse.name}</p>
+              <p className="font-bold text-xl sm:text-2xl text-primary">{horse.name}</p>
 
               <Notes text={horse.notes} />
 
@@ -46,8 +46,7 @@ export function Horses() {
                       <img
                         src={horseImage.url}
                         alt={horseImage.alt}
-                        width={300}
-                        className="mx-auto cursor-pointer hover:opacity-80 p-1"
+                        className="w-2xs sm:w-6xl ml-2 sm:ml-0 cursor-pointer hover:opacity-80 p-1"
                       />
                     </DialogTrigger>
 
@@ -60,9 +59,6 @@ export function Horses() {
                       </DialogHeader>
                       <img src={horseImage.url} alt={horseImage.alt} />
                       <DialogDescription>{horseImage.alt}</DialogDescription>
-                      <DialogFooter>
-                        I spent most my time with {horse.name} in {horse.timeline}
-                      </DialogFooter>
                     </DialogContent>
                   </Dialog>
                 ))}

@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col items-center">
-        <div className="grid grid-cols-2 max-w-6xl justify-between opacity-50 rounded-xl absolute">
+        <div className="grid grid-cols-2 max-w-sm sm:max-w-6xl justify-between opacity-50 rounded-xl absolute">
           <img
             src="https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee1.JPG"
             alt="Trallee and me"
@@ -18,15 +18,12 @@ export default function Home() {
             alt="Winston and me"
           />
         </div>
-        <div className="text-3xl sm:text-6xl relative mt-4 sm:mt-30 opacity-70">
-          Lara`s horse history
+        <div className="max-w-sm sm:max-w-2xl text-sm sm:text-4xl flex text-center relative mx-4 mt-50 sm:mt-90 mb-6 sm:mb-80 opacity-70 sm:opacity-50">
+          I`ve created this page to honor and remember those horses who have found a special place
+          in my heart. Every single one had their very own character and with that, their own
+          lessons to teach!
         </div>
-        <div className="max-w-2xl text-2xl sm:text-4xl flex text-center relative mt-2 sm:mt-35 mb-5 sm:mb-80 opacity-70">
-          This is a page about all the horses I`ve met, who have found a special place in my heart.
-          Some more than others but every single one had their very own character and with that,
-          their own lessons to teach me!
-        </div>
-        <div className="">
+        <div className="max-w-sm sm:max-w-2xl mr-4">
           <Horses />
         </div>
       </main>
