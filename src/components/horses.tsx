@@ -52,13 +52,17 @@ export function Horses() {
 
                     <DialogContent>
                       <DialogHeader>
-                        <DialogTitle>{horse.name}</DialogTitle>
-                        <div>
-                          {horse.age} {horse.breed}
+                        <DialogTitle className="flex justify-center text-xl">
+                          {horse.name}
+                        </DialogTitle>
+                        <div className="flex justify-center">
+                          {horse.age}, {horse.breed}
                         </div>
                       </DialogHeader>
                       <img src={horseImage.url} alt={horseImage.alt} />
-                      <DialogDescription>{horseImage.alt}</DialogDescription>
+                      <DialogDescription className="flex text-center justify-center">
+                        {horseImage.alt}
+                      </DialogDescription>
                     </DialogContent>
                   </Dialog>
                 ))}

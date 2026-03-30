@@ -9,15 +9,15 @@ export const HORSE_DATA = [
     images: [
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis2.JPG',
-        alt: "Lovis' head, taken with a Nintendo 3DS",
+        alt: 'This is Lovis',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis3.JPG',
-        alt: 'Lovis and me at our first and only Western Pleasure show in 2013',
+        alt: 'This was Lovis and me in 2013, at both our first show in the Western Pleasure class.',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/lovis/lovis1.jpg',
-        alt: "Lovis' face in winter",
+        alt: 'She was such a furball in winter.',
       },
     ],
   },
@@ -31,11 +31,11 @@ export const HORSE_DATA = [
     images: [
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/oz/oz1.jpg',
-        alt: 'Oz and me loping without saddle in the round pen',
+        alt: 'It was pretty muddy that day but that just meant we didn`t use the saddle, so it stayed clean.',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/oz/oz2.JPG',
-        alt: 'Oz, spray-painted for carnival',
+        alt: 'We dressed Oz up for carnival. He really didn`t mind the shenanigans, neither did the chickens in the background.',
       },
     ],
   },
@@ -53,15 +53,15 @@ export const HORSE_DATA = [
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/jasko/jasko2.JPG',
-        alt: 'Jasko and me loping without saddle in a field',
+        alt: 'Jasko and me, as usual, without saddle in an open field.',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/jasko/jasko3.JPG',
-        alt: "Jasko's face, look at his eyeliner!",
+        alt: "This is Jasko's face, look at his eyeliner!",
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/jasko/jasko4.png',
-        alt: 'Jasko taking a bow',
+        alt: 'This is one way to mount a tall horse, have them take a bow!',
       },
     ],
   },
@@ -75,19 +75,19 @@ export const HORSE_DATA = [
     images: [
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee1.JPG',
-        alt: 'Tralee and me',
+        alt: 'To this day one of my favorite photos of Tralee and me.',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee2.jpg',
-        alt: 'Tralee and me without saddle in a field',
+        alt: 'Tralee and me in a field',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee3.JPG',
-        alt: "Tralee's face",
+        alt: 'Tralee <3',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tralee/tralee4.JPG',
-        alt: 'Tralee and me at a Western Pleasure show',
+        alt: 'This was in 2015, my first Western Pleasure show with Tralee.',
       },
     ],
   },
@@ -101,15 +101,15 @@ export const HORSE_DATA = [
     images: [
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico1.jpg',
-        alt: 'Pico',
+        alt: 'This is Pico',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico2.JPG',
-        alt: 'Pico and me walking back to the stable',
+        alt: "Pico and me walking to the stable. He's a short but very lovable guy",
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/pico/pico3.jpg',
-        alt: "Pico's face",
+        alt: 'Pico has a beautiful face too',
       },
     ],
   },
@@ -127,7 +127,7 @@ export const HORSE_DATA = [
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/tiana/tiana2.jpg',
-        alt: 'Tiana with braided mane',
+        alt: 'Tiana with a braided mane',
       },
     ],
   },
@@ -141,7 +141,7 @@ export const HORSE_DATA = [
     images: [
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/nala/nala1.jpeg',
-        alt: "Nala's face",
+        alt: "This is Nala. The bright pink halter doesn't help with the cuteness",
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/nala/nala2.jpeg',
@@ -163,7 +163,7 @@ export const HORSE_DATA = [
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/fuchur/fuchur3.jpg',
-        alt: 'Fuchur and me walking to the stable',
+        alt: 'Fuchur and me walking to the stable. He was a tall guy.',
       },
       {
         url: 'https://s3.us-east-1.amazonaws.com/images.horses.lara.horse/fuchur/fuchur1.JPG',
