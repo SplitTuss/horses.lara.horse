@@ -14,11 +14,20 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from './shadcn/Carousel';
-
 import { type CarouselApi } from './shadcn/Carousel';
 import { Notes } from './notes';
 
-export function HorseSection({ horse }) {
+interface HorseProps {
+  horse: {
+    name: string;
+    age: string;
+    breed: string;
+    notes: string;
+    images: Array<{ url: string; alt: string }>;
+  };
+}
+
+export function HorseSection({ horse }: HorseProps) {
   const [api, setApi] = useState<CarouselApi>();
   const [open, setOpen] = useState(false);
   const [startIndex, setStartIndex] = useState(0);

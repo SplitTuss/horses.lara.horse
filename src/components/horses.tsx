@@ -24,7 +24,7 @@ export function Horses() {
                 {horse.timeline}
               </div>
             </div>
-            <HorseSection index={index} horse={horse} />;
+            <HorseSection horse={horse} />
           </section>
         );
       })}
